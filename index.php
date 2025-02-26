@@ -11,7 +11,7 @@
     <title>Document</title>
 </head>
 <body>
-    <a href="reg.php">Új regisztráció</a>
+    <a href="reg.php">Új regisztráció ipadrol</a>
     <h1>Regisztráltak listája</h1>
     <?php foreach($reg as $r): ?>
         <li><a href="show.php?taj=<?= $r['taj'] ?>"><?= $r["fullname"] ?></a></li>
